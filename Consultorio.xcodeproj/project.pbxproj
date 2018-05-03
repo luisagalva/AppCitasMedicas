@@ -15,6 +15,11 @@
 		A044E6B02050DBEC00B86D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A044E6AE2050DBEC00B86D02 /* LaunchScreen.storyboard */; };
 		A044E6BB2050DBEC00B86D02 /* ConsultorioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044E6BA2050DBEC00B86D02 /* ConsultorioTests.swift */; };
 		A044E6C62050DBEC00B86D02 /* ConsultorioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044E6C52050DBEC00B86D02 /* ConsultorioUITests.swift */; };
+		A057CE1E209ABDA000949171 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A057CE1D209ABDA000949171 /* LoginViewController.swift */; };
+		A057CE24209AC45D00949171 /* FBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A057CE23209AC45D00949171 /* FBViewController.swift */; };
+		A067BB85205604C80048FE55 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A067BB84205604C80048FE55 /* CalendarView.swift */; };
+		A067BB87205604DF0048FE55 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A067BB86205604DF0048FE55 /* MonthView.swift */; };
+		A067BB89205604F30048FE55 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A067BB88205604F30048FE55 /* WeekdaysView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,15 @@
 		A044E6C12050DBEC00B86D02 /* ConsultorioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsultorioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A044E6C52050DBEC00B86D02 /* ConsultorioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultorioUITests.swift; sourceTree = "<group>"; };
 		A044E6C72050DBEC00B86D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A057CE1D209ABDA000949171 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A057CE1F209AC00B00949171 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A057CE20209AC00D00949171 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A057CE21209AC00E00949171 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A057CE22209AC00F00949171 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		A057CE23209AC45D00949171 /* FBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBViewController.swift; sourceTree = "<group>"; };
+		A067BB84205604C80048FE55 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A067BB86205604DF0048FE55 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		A067BB88205604F30048FE55 /* WeekdaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,10 @@
 		A044E6962050DBEC00B86D02 = {
 			isa = PBXGroup;
 			children = (
+				A057CE1F209AC00B00949171 /* Bolts.framework */,
+				A057CE20209AC00D00949171 /* FBSDKCoreKit.framework */,
+				A057CE21209AC00E00949171 /* FBSDKLoginKit.framework */,
+				A057CE22209AC00F00949171 /* FBSDKShareKit.framework */,
 				A044E6A12050DBEC00B86D02 /* Consultorio */,
 				A044E6B92050DBEC00B86D02 /* ConsultorioTests */,
 				A044E6C42050DBEC00B86D02 /* ConsultorioUITests */,
@@ -106,6 +124,11 @@
 				A044E6AE2050DBEC00B86D02 /* LaunchScreen.storyboard */,
 				A044E6B12050DBEC00B86D02 /* Info.plist */,
 				A044E6A92050DBEC00B86D02 /* Consultorio.xcdatamodeld */,
+				A067BB84205604C80048FE55 /* CalendarView.swift */,
+				A067BB86205604DF0048FE55 /* MonthView.swift */,
+				A067BB88205604F30048FE55 /* WeekdaysView.swift */,
+				A057CE1D209ABDA000949171 /* LoginViewController.swift */,
+				A057CE23209AC45D00949171 /* FBViewController.swift */,
 			);
 			path = Consultorio;
 			sourceTree = "<group>";
@@ -262,8 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A057CE24209AC45D00949171 /* FBViewController.swift in Sources */,
+				A057CE1E209ABDA000949171 /* LoginViewController.swift in Sources */,
 				A044E6A52050DBEC00B86D02 /* ViewController.swift in Sources */,
+				A067BB89205604F30048FE55 /* WeekdaysView.swift in Sources */,
+				A067BB87205604DF0048FE55 /* MonthView.swift in Sources */,
 				A044E6A32050DBEC00B86D02 /* AppDelegate.swift in Sources */,
+				A067BB85205604C80048FE55 /* CalendarView.swift in Sources */,
 				A044E6AB2050DBEC00B86D02 /* Consultorio.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
